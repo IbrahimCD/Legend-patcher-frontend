@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:4000/api/patch',
+  baseURL: 'https://legend-patcher-backend.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
