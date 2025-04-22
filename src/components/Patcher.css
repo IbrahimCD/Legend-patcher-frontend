@@ -1,0 +1,100 @@
+/* Patcher.css */
+
+.patcher-container {
+    display: flex;
+    gap: 1rem;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .patcher-textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .patcher-original {
+    background-color: #fcfcfc;
+  }
+  
+  .patcher-script {
+    background-color: #fffdf6;
+  }
+  
+  .patcher-result {
+    background-color: #f6fff6;
+    border-color: #8bc34a;
+  }
+  
+  .patcher-preview {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .patcher-preview h3 {
+    margin: 0 0 0.5rem;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25rem;
+  }
+  
+  .patcher-preview button {
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 13px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+  
+  .patcher-preview button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .patcher-preview > div + div {
+    margin-top: 0.75rem;
+  }
+  
+  .patcher-preview label {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .patcher-preview input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .patcher-preview strong {
+    font-weight: 600;
+  }
+  
+  .patcher-preview div[style] {
+    margin-top: 0.25rem;
+  }
+  
+  .patcher-preview div[style] > div {
+    margin-bottom: 0.25rem;
+  }
+  
+  .patcher-preview div[style] > div:last-child {
+    margin-bottom: 0;
+  }
+  
